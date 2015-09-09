@@ -1,0 +1,24 @@
+{
+  "name": "leaflet-control-fa-button",
+  "main": "leaflet-control-fa-button.js",
+  "version": "0.0.1",
+  "authors": [
+    "Jesper Baasch-Larsen <jla@fcoo.dk>"
+  ],
+  "description": "Leaflet control for showing a button with a FontAwesome icon",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "Leaflet": "https://github.com/jblarsen/Leaflet.git#master"
+  }
+}

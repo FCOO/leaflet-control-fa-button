@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaflet control containing a button with a font awesome icon</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="map" style="width: 600px; height: 400px"></div>
+    <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script type="text/javascript" src="leaflet-control-fa-button.js" charset="UTF-8"></script>
+    <script>
+        var map = L.map('map').setView([56.5, 12.0], 5);
+        L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors</a>'
+        }).addTo(map);
+
+        var options = {
+            message: 'You have pushed the button',
+            title: 'See this on hover',
+            fontAwesomeIcon: 'fa-floppy-o',
+            className: 'leaflet-control-floppy-button',
+        }
+        map.addControl(new L.Control.FontAwesomeButton(options));
+
+        options = {
+            message: 'DO NOT PUSH ME!',
+            title: 'Push me',
+            fontAwesomeIcon: 'fa-clone',
+            className: 'leaflet-control-clone-button',
+        }
+        map.addControl(new L.Control.FontAwesomeButton(options));
+
+        options = {
+            message: 'You will never see this',
+            title: 'Try me, I am using a custom click handler',
+            onclick: function (evt) {
+                alert('Instead you will see this');
+            },
+            fontAwesomeIcon: 'fa-get-pocket',
+            className: 'leaflet-control-get-pocket-button',
+        }
+        map.addControl(new L.Control.FontAwesomeButton(options));
+
+        options = {
+            title: 'I am just a link',
+            href: 'https://google.com',
+            fontAwesomeIcon: 'fa-home',
+            className: 'leaflet-control-google-button',
+        }
+        map.addControl(new L.Control.FontAwesomeButton(options));
+    </script>
+</body>
+</html>
