@@ -19,6 +19,6 @@
   ],
   "dependencies": {
     "jquery": "~2.1.4",
-    "Leaflet": "https://github.com/jblarsen/Leaflet.git#master"
+    "Leaflet": "https://github.com/jblarsen/Leaflet.git#master-dist"
   }
 }
