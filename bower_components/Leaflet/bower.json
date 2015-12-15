@@ -10,7 +10,7 @@
     "dist/images/marker-icon.png",
     "dist/images/marker-shadow.png"
   ],
-  "ignore": [
+   "ignore": [
     ".*",
     "CHANGELOG.json",
     "FAQ.md",
@@ -18,15 +18,5 @@
     "spec",
     "src",
     "build"
-  ],
-  "homepage": "https://github.com/jblarsen/Leaflet",
-  "_release": "951e1f079f",
-  "_resolution": {
-    "type": "branch",
-    "branch": "master-dist",
-    "commit": "951e1f079f9e00b6c3fbd82958de2878155c71b9"
-  },
-  "_source": "https://github.com/jblarsen/Leaflet.git",
-  "_target": "master-dist",
-  "_originalSource": "https://github.com/jblarsen/Leaflet.git"
+  ]
 }
