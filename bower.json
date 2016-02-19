@@ -1,14 +1,13 @@
 {
   "name": "leaflet-control-fa-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/FCOO/leaflet-control-fa-button",
   "authors": [
     "Jesper Larsen jla@fcoo.dk"
   ],
   "description": "Simple Leaflet control containing a FontAwesome button",
   "main": [
-    "dist/leaflet-control-fa-button.min.js",
-    "dist/leaflet-control-fa-button.min.css"
+    "dist/leaflet-control-fa-button.min.js"
   ],
   "repository": {
     "type": "git",
