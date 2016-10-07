@@ -7,12 +7,12 @@
 	https://github.com/FCOO
 
 ****************************************************************************/
-;(function (/*$,*/ L, window, document, undefined) {
+(function (/*$,*/ L, window, document, undefined) {
 	"use strict";
 
 	L.Control.FontAwesomeButton = L.Control.extend({
     options: {
-			VERSION: "1.0.1",
+			VERSION: "1.0.2",
       position: 'topleft',
       title: '',
       href: undefined,
