@@ -11,7 +11,6 @@
 
   <link  href="bower_components.css" rel="stylesheet">	
   <link  href="css/font-awesome.css" rel="stylesheet">	
-  <link  href="../src/leaflet-control-fa-button.css" rel="stylesheet">	
 </head>
 
 <body>
@@ -30,35 +29,35 @@
         var options = {
             message: 'You have pushed the button',
             title: 'See this on hover',
-            fontAwesomeIcon: 'fa-floppy-o',
-            className: 'leaflet-control-floppy-button',
+            iconClassName: 'fa-floppy-o',
+            containerClassName: 'leaflet-control-floppy-button'
         }
         map.addControl(new L.Control.FontAwesomeButton(options));
 
         options = {
             message: 'DO NOT PUSH ME!',
             title: 'Push me',
-            fontAwesomeIcon: 'fa-clone',
-            className: 'leaflet-control-clone-button',
+            iconClassName: 'fa-clone',
+            containerClassName: 'leaflet-control-clone-button'
         }
         map.addControl(new L.Control.FontAwesomeButton(options));
 
         options = {
             message: 'You will never see this',
             title: 'Try me, I am using a custom click handler',
-            onclick: function (evt) {
+            onClick: function (evt, $button, options) {
                 alert('Instead you will see this');
             },
-            fontAwesomeIcon: 'fa-get-pocket',
-            className: 'leaflet-control-get-pocket-button',
+            iconClassName: 'fa-get-pocket',
+            containerClassName: 'leaflet-control-get-pocket-button',
         }
         map.addControl(new L.Control.FontAwesomeButton(options));
 
         options = {
             title: 'I am just a link',
             href: 'https://google.com',
-            fontAwesomeIcon: 'fa-home',
-            className: 'leaflet-control-google-button',
+            iconClassName: 'fa-home',
+            containerClassName: 'leaflet-control-google-button',
         }
         map.addControl(new L.Control.FontAwesomeButton(options));
 
