@@ -20,6 +20,7 @@ http://FCOO.github.io/leaflet-control-fa-button/demo/
 | Id | Default | Description |
 | :--: |  :--: |  :--- |
 | `position` | `"topleft"` | Leaflet position |
+| `defaultContainerClassName` | `"leaflet-bar leaflet-control-fa-button"` | Standard classes for the container |
 | `containerClassName` | `""` | Extra class-name(s) for the container |
 | `defaultIconClassName` | `"fa fa-lg"` | Standard FontAwesome classes |
 | `iconClassName` | `""` | The class defining the icon |

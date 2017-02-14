@@ -24,20 +24,21 @@
 
     L.Control.FontAwesomeButton = L.Control.extend({
         options: {
-            VERSION             : "{VERSION}",
-            position            : 'topleft',
-            containerClassName  : '',
-            defaultIconClassName: 'fa fa-lg',
-            iconClassName       : '',
-            data                : {},
-            title               : '',
-            href                : undefined,
-            onClick             : null, //function (evt, $button, options) {...}
+            VERSION                  : "{VERSION}",
+            position                 : 'topleft',
+            defaultContainerClassName: 'leaflet-bar leaflet-control-fa-button',
+            containerClassName       : '',
+            defaultIconClassName     : 'fa fa-lg',
+            iconClassName            : '',
+            data                     : {},
+            title                    : '',
+            href                     : undefined,
+            onClick                  : null, //function (evt, $button, options) {...}
         },
         onAdd: function (map) {
             this._map = map;
 
-            this._container = L.DomUtil.create('div', 'leaflet-bar leaflet-control-fa-button ' + this.options.containerClassName);
+            this._container = L.DomUtil.create('div', this.options.defaultContainerClassName + ' ' + this.options.containerClassName);
 
             this._button = L.DomUtil.create('a', '', this._container);
 
