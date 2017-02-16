@@ -28,7 +28,7 @@
             position                 : 'topleft',
             defaultContainerClassName: 'leaflet-bar leaflet-control-fa-button',
             containerClassName       : '',
-            defaultIconClassName     : 'fa fa-lg',
+            defaultIconClassName     : 'fa',
             iconClassName            : '',
             data                     : {},
             title                    : '',
