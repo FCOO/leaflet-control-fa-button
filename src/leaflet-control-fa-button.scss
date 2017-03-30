@@ -15,6 +15,13 @@
     line-height: inherit; 
  }
 
+//Font-size
+$font-size: 1.3333em;
 .leaflet-control-fa-button a {
-    font-size: 1.3333em;
+    font-size: $font-size;
+
+    .leaflet-touch & {
+        //26 = default leaflet button dim, 30 = dim with leaflet-touch
+        font-size: $font-size * 30 / 26;
+    }
 }

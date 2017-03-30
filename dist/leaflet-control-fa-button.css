@@ -13,3 +13,5 @@
 
 .leaflet-control-fa-button a {
   font-size: 1.3333em; }
+  .leaflet-touch .leaflet-control-fa-button a {
+    font-size: 1.5384230769em; }
