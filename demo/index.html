@@ -34,7 +34,6 @@
             message: 'You have pushed the button',
             title: 'See this on hover',
             iconClassName: 'fa-floppy-o',
-            containerClassName: 'leaflet-control-floppy-button'
         }
         map.addControl(new L.Control.FontAwesomeButton(options));
 
@@ -42,7 +41,6 @@
             message: 'DO NOT PUSH ME!',
             title: 'Push me',
             iconClassName: 'fa-clone',
-            containerClassName: 'leaflet-control-clone-button'
         }
         map.addControl(new L.Control.FontAwesomeButton(options));
 
@@ -53,7 +51,6 @@
                 alert('Instead you will see this');
             },
             iconClassName: 'fa-get-pocket',
-            containerClassName: 'leaflet-control-get-pocket-button',
         }
         map.addControl(new L.Control.FontAwesomeButton(options));
 
@@ -61,7 +58,6 @@
             title: 'I am just a link',
             href: 'https://google.com',
             iconClassName: 'fa-home',
-            containerClassName: 'leaflet-control-google-button',
         }
         map.addControl(new L.Control.FontAwesomeButton(options));
 

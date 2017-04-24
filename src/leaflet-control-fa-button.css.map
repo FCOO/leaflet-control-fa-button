@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA;;;;;;;;;iDASiD;AAIjD,mBAAoB;EAChB,WAAW,EAAE,OAAO;;;AAKxB,4BAA6B;EACzB,SAAS,EAFD,QAAQ;;AAIhB,2CAAiB;EAEb,SAAS,EAAE,SAAoB",
+"mappings": "AAAA;;;;;;;;;iDASiD;AAIjD,mBAAoB;EAChB,WAAW,EAAE,OAAO;;;AAKxB,4BAA6B;EACzB,SAAS,EAFD,QAAQ;EAGhB,MAAM,EAAE,OAAO;;AAGf,2CAAiB;EAEb,SAAS,EAAE,SAAoB",
 "sources": ["leaflet-control-fa-button.scss"],
 "names": [],
 "file": "leaflet-control-fa-button.css"

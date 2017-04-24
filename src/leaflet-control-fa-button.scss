@@ -19,6 +19,8 @@
 $font-size: 1.3333em;
 .leaflet-control-fa-button a {
     font-size: $font-size;
+    cursor: pointer;
+
 
     .leaflet-touch & {
         //26 = default leaflet button dim, 30 = dim with leaflet-touch
