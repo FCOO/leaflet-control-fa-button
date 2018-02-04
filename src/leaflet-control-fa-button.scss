@@ -1,5 +1,5 @@
 /***********************************************
-    leaflet-control-fa-button.scss, 
+    leaflet-control-fa-button.scss,
 
     (c) 2017, FCOO
 
@@ -11,15 +11,15 @@
 
 
 //Bug fix to allow icon inside <i> in .leaflet-bar
-.leaflet-bar a i.fa { 
-    line-height: inherit; 
+.leaflet-bar a i.fa {
+    line-height: inherit;
  }
 
 //Font-size
 $font-size: 1.3333em;
 .leaflet-control-fa-button a {
     font-size: $font-size;
-    cursor: pointer;
+    cursor   : default;
 
 
     .leaflet-touch & {

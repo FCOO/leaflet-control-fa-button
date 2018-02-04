@@ -1,5 +1,5 @@
 /***********************************************
-    leaflet-control-fa-button.scss, 
+    leaflet-control-fa-button.scss,
 
     (c) 2017, FCOO
 
@@ -13,6 +13,6 @@
 
 .leaflet-control-fa-button a {
   font-size: 1.3333em;
-  cursor: pointer; }
+  cursor: default; }
   .leaflet-touch .leaflet-control-fa-button a {
     font-size: 1.5384230769em; }

@@ -24,7 +24,7 @@
 
     L.Control.FontAwesomeButton = L.Control.extend({
         options: {
-            VERSION                  : "2.1.4",
+            VERSION                  : "2.1.5",
             position                 : 'topleft',
             defaultContainerClassName: 'leaflet-bar leaflet-control-fa-button',
             containerClassName       : '',
