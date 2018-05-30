@@ -1,5 +1,5 @@
 /****************************************************************************
-    leaflet-control-fa-button.js, 
+    leaflet-control-fa-button.js,
 
     (c) 2015, FCOO
 
@@ -18,7 +18,7 @@
         e.preventDefault(); // Prevent link from being processed
 
         if (options && options.onClick)
-            return options.onClick( e, $button, options ); 
+            return options.onClick( e, $button, options );
         return false;
     }
 
@@ -28,7 +28,7 @@
             position                 : 'topleft',
             defaultContainerClassName: 'leaflet-bar leaflet-control-fa-button',
             containerClassName       : '',
-            defaultIconClassName     : 'fa',
+            defaultIconClassName     : 'fas',
             iconClassName            : '',
             data                     : {},
             title                    : '',
@@ -43,7 +43,7 @@
             this._button = L.DomUtil.create('a', '', this._container);
 
             this._button.title = this.options.title;
-            
+
             var $button = $(this._button);
             $button.data('fontawesomebutton', this.options );
 
@@ -58,12 +58,12 @@
             L.DomEvent.disableClickPropagation( this._container );
             if (this.options.href !== undefined)
                 this._button.href = this.options.href;
-            else 
+            else
                 $(this._button).on( 'click', onClick );
 
             //Add the icon
             L.DomUtil.create('i', this.options.defaultIconClassName + ' ' + this.options.iconClassName, this._button);
-           
+
             return this._container;
         },
     });

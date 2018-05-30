@@ -1,6 +1,6 @@
 {
   "name": "leaflet-control-fa-button",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "homepage": "https://github.com/FCOO/leaflet-control-fa-button",
   "authors": [
     "Jesper Larsen jla@fcoo.dk"
@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "leaflet": "latest",
-    "font-awesome": "latest",
     "jquery": "latest"
   },
   "devDependencies": {},

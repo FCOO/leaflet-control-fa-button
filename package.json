@@ -1,6 +1,6 @@
 {
   "name": "leaflet-control-fa-button",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "homepage": "https://github.com/FCOO/leaflet-control-fa-button",
   "author": "Jesper Larsen jla@fcoo.dk",
   "description": "package.json is only use for building the package. see bower.json for more info",
@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "grunt": "^1.0.0",
-    "grunt-fcoo-grunt-plugin": "^3.2.0"
+    "grunt-fcoo-grunt-plugin": "^4.0.0"
   },
   "license": "MIT"
 }

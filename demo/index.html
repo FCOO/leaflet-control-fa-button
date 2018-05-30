@@ -9,9 +9,9 @@
 	<meta name='copyright' content='FCOO'>
 	<meta name='owner' content='FCOO'>
 
-    <link  href="bower_components.css" rel="stylesheet">	
-    <link  href="css/font-awesome.css" rel="stylesheet">	
-    <link  href="../src/leaflet-control-fa-button.css" rel="stylesheet">	
+    <link  href="bower_components.css" rel="stylesheet">
+    <link  href="css/fontawesome-all.css" rel="stylesheet">
+    <link  href="../src/leaflet-control-fa-button.css" rel="stylesheet">
     <style>
         html, body, #map { margin:0; padding:0; width:100%; height:100%; }
     </style>
@@ -33,7 +33,7 @@
         var options = {
             message: 'You have pushed the button',
             title: 'See this on hover',
-            iconClassName: 'fa-floppy-o',
+            iconClassName: 'fa-save',
         }
         map.addControl(new L.Control.FontAwesomeButton(options));
 
@@ -50,7 +50,8 @@
             onClick: function (evt, $button, options) {
                 alert('Instead you will see this');
             },
-            iconClassName: 'fa-get-pocket',
+            defaultIconClassName: 'fab',
+            iconClassName: 'fa-codepen',
         }
         map.addControl(new L.Control.FontAwesomeButton(options));
 
